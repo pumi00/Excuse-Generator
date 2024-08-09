@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20%;
+    overflow: hidden;
+}
+p {
+    font-size: 3em;
+    position: relative;
+    display: inline-block;
+    animation: moveText 5s linear infinite;
+}
+@keyframes moveText {
+    0%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(100%)
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
